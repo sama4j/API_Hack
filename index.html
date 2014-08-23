@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>API Hack project</title>
+	<link rel="stylesheet" href="main.css">
+  	<script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="app.js"></script>
+</head>
+<body>
+	<!--h4>Today is <span class="localTime"></span></h4-->
+	<header>
+		<div class="top">
+			<h1>Springer Publications Query</h1>
+			<p>Search the Springer books and journal database by subject material, publication type and topic. The 10 Search results have the links to open-access abstracts of the publications.</p>
+		</div>
+	</header>
+	<section>
+	<div class="container">
+		<form>
+			<fieldset>
+				<legend>Search field</legend>
+				<label>Subject
+					<select name="group2" id="subj">
+						<option value="Physics">Physics</option>>
+						<option value="Chemistry">Chemistry</option>
+						<option value="Engineering">Engineering</option>
+						<option value="Statistics">Statistics</option>
+						<option value="Astronomy">Astronomy</option>
+					</select>
+				</label>
+				<label>Publication type
+					<select name="group" id="typeP">
+						<option value="Book">Book</option>
+						<option value="Journal">Journal</option>
+					</select>
+				</label>
+				<label>Search for text:
+					<input type="text" id="in1" placeholder="gravity" autofocus>
+				</label>
+				<button class="btn">Query</button>
+			</fieldset>
+		</form>
+	</div>
+	<div class="notice">
+		<h3>Advanced full search can also be obtained from the Springer website: <a href="http://www.springer.com">Springer webpage</a></h3>
+	</div>
+	<div id="output">
+		<div class="hidden">
+		</div>
+		<div class="homework">
+			<ol class="queried">
+			</ol>
+		</div>
+	</div>
+	</section>
+</body>
+</html>

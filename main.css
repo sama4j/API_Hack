@@ -1,0 +1,71 @@
+.localTime {
+	font-size: 20px;
+}
+
+.notice {
+	text-align: center;
+	display: none;
+	background-color: yellow;
+	width: 80%;
+	margin: auto;
+}
+
+body {
+	background-color: #F7F2E0;
+}
+
+header {
+	text-align: center;
+}
+
+.container {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+
+label {
+	margin: auto 20px;
+}
+
+.hidden {
+	font-style: oblique;
+	font-family: serif;
+	font-size: medium;
+	background-color: #C8FE2E;
+}
+
+li p {
+	margin: 5px auto;
+}
+
+li {
+	margin: 15px auto;
+}
+
+.queried {
+	display: block;
+}
+
+.btn {
+	border-radius: 5px;
+}
+
+#output {
+	width: 80%;
+	margin: auto;
+}
+
+.one {
+	font-weight: bolder;
+	font-family: Arial;
+}
+
+.two {
+	font-size: 20px;
+}
+
+.mention {
+	font-style: italic;
+	font-size: 15px;
+}
