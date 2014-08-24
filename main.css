@@ -1,13 +1,17 @@
-.localTime {
-	font-size: 20px;
+* {
+	line-height: 120%;
 }
 
 .notice {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
 	text-align: center;
 	display: none;
 	background-color: yellow;
 	width: 80%;
 	margin: auto;
+	border-radius: 10px;
+	padding: auto;
 }
 
 body {
@@ -29,10 +33,14 @@ label {
 }
 
 .hidden {
-	font-style: oblique;
-	font-family: serif;
-	font-size: medium;
+	font-family: 'Ubuntu', sans-serif;
 	background-color: #C8FE2E;
+	border-radius: 10px;
+	padding: 5px;
+	display: none;
+	text-align: center;
+	width: 50%;
+	margin: auto;
 }
 
 li p {
@@ -41,6 +49,9 @@ li p {
 
 li {
 	margin: 15px auto;
+	background-color: white;
+	border-radius: 10px;
+	padding: 5px;
 }
 
 .queried {
@@ -57,8 +68,8 @@ li {
 }
 
 .one {
-	font-weight: bolder;
-	font-family: Arial;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
 }
 
 .two {
@@ -66,6 +77,43 @@ li {
 }
 
 .mention {
-	font-style: italic;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
 	font-size: 15px;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+#top h1 {
+	font-family: 'Glegoo', serif;
+	font-weight: 800;
+}
+
+legend {
+	font-family: 'Trocchi', serif;
+	font-weight: 400;
+}
+
+option, #uno {
+	font-family: 'Glegoo', serif;
+	font-weight: 400;
+}
+
+#in1,  #deuce {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+form {
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+li:nth-child(2n) {
+	background-color: Cyan;
+}
+
+#deuce span {
+	text-decoration: underline;
 }

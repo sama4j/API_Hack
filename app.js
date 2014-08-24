@@ -21,7 +21,9 @@ var obtainData = function(ent1,ent2,ent3) {
 		$('.queried').append('<li></li>')
 		showOutput(record);
 	});
+	$('.hidden').show();
 	$('.notice').slideDown();
+	$('#deuce').hide();
   });
 };
 

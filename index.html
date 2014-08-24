@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link href='http://fonts.googleapis.com/css?family=Glegoo:400,700|Trocchi|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<meta charset="UTF-8">
 	<title>API Hack project</title>
 	<link rel="stylesheet" href="main.css">
@@ -13,21 +14,23 @@
 	<header>
 		<div class="top">
 			<h1>Springer Publications Query</h1>
-			<p>Search the Springer books and journal database by subject material, publication type and topic. The 10 Search results have the links to open-access abstracts of the publications.</p>
+			<p id="uno">Quickly access the Springer books and journal database by subject material and publication type on any related topic.</p>
+			<p id="deuce">The 10 search results displays the <span>Publication Title</span>, <span>Publication Name</span>, <span>Publication Date</span> and <span>Publication Link</span> to the open-access abstracts</p>
 		</div>
 	</header>
 	<section>
 	<div class="container">
 		<form>
 			<fieldset>
-				<legend>Search field</legend>
+				<legend>Search Field</legend>
 				<label>Subject
 					<select name="group2" id="subj">
-						<option value="Physics">Physics</option>>
-						<option value="Chemistry">Chemistry</option>
-						<option value="Engineering">Engineering</option>
-						<option value="Statistics">Statistics</option>
 						<option value="Astronomy">Astronomy</option>
+						<option value="Chemistry">Chemistry</option>
+						<option value="Energy">Energy</option>
+						<option value="Engineering">Engineering</option>
+						<option value="Physics">Physics</option>
+						<option value="Statistics">Statistics</option>	
 					</select>
 				</label>
 				<label>Publication type
@@ -39,12 +42,9 @@
 				<label>Search for text:
 					<input type="text" id="in1" placeholder="gravity" autofocus>
 				</label>
-				<button class="btn">Query</button>
+				<button class="btn">Query the Database</button>
 			</fieldset>
 		</form>
-	</div>
-	<div class="notice">
-		<h3>Advanced full search can also be obtained from the Springer website: <a href="http://www.springer.com">Springer webpage</a></h3>
 	</div>
 	<div id="output">
 		<div class="hidden">
@@ -55,5 +55,10 @@
 		</div>
 	</div>
 	</section>
+	<footer>
+		<div class="notice">
+		<h3>Advanced full search can also be obtained from the Springer website: <a href="http://www.springer.com">Springer webpage</a></h3>
+	</div>
+	</footer>
 </body>
 </html>
